@@ -11,3 +11,9 @@ or
 cd Orochi
 git submodule update --recursive
 ```
+
+### HIP API Reference
+https://rocmdocs.amd.com/projects/HIP/en/develop/index.html
+
+### 注意点
+カーネルコード内での`printf`関数はWindows上では動作しないようです。
