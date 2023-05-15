@@ -16,4 +16,6 @@ git submodule update --recursive
 https://rocmdocs.amd.com/projects/HIP/en/develop/index.html
 
 ### 注意点
-カーネルコード内での`printf`関数はWindows上では動作しないようです。
+カーネルコード内での`printf`と`assert`関数はWindows上では動作しないようです。
+また、カーネル内で`__host__`修飾した関数もおそらく動作しません。
+
