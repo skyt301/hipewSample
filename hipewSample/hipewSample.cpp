@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <vector>
-#include <contrib\hipew\include\hipew.h>
+#include "Orochi\contrib\hipew\include\hipew.h"
 
 int main()
 {
