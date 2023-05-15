@@ -120,6 +120,7 @@ int main()
 			std::cout << "managedFloat[" << i << "]: " << managedFloat[i] << std::endl;
 		}
 
+		//マネージドメモリの解放
 		e = hipFree((hipDeviceptr_t)managedFloat);
 
 	}
