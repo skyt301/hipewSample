@@ -13,10 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Orochi">
+      <UniqueIdentifier>{da5b85ab-ed29-4ae8-9013-b6ba7f2b0a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Orochi\contrib">
+      <UniqueIdentifier>{2f235e9d-3906-4ad8-813e-337b77dcfafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Orochi\contrib\hipew">
+      <UniqueIdentifier>{6c8636de-d807-4c62-aeb1-d3cb44761f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Orochi\contrib\hipew\include">
+      <UniqueIdentifier>{747de3e2-7872-48bc-b7f1-f185dc57c0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Orochi\contrib\hipew\src">
+      <UniqueIdentifier>{8a02376f-5c70-43fe-9545-53bf5e1f591e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hipewSample.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="..\Orochi\contrib\hipew\src\hipew.cpp">
+      <Filter>Orochi\contrib\hipew\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Orochi\contrib\hipew\include\hipew.h">
+      <Filter>Orochi\contrib\hipew\include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
